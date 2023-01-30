@@ -54,7 +54,7 @@ CountRunTimes() {
     else
         count_file=$(mktemp --suffix=RRC)
     fi
-    RunTimes=$(curl -s --max-time 10 "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/TikTok365/tiktok_check" >"${count_file}")
+    RunTimes=$(curl -s --max-time 10 "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/TikTok365/tiktok" >"${count_file}")
     TodayRunTimes=$(cat "${count_file}" | tail -3 | head -n 1 | awk '{print $5}')
     TotalRunTimes=$(cat "${count_file}" | tail -3 | head -n 1 | awk '{print $7}')
 }

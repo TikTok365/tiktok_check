@@ -1,34 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@TikTok365 
-TikTok365
-/
-tiktok
-Public
-Cannot fork because you own this repository and are not a member of any organizations.
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-tiktok/Tiktok_Region.sh
-@TikTok365
-TikTok365 Update Tiktok_Region.sh
-Latest commit 2f1ce19 3 minutes ago
- History
- 1 contributor
-139 lines (118 sloc)  4.81 KB
-
 #!/bin/bash
 shopt -s expand_aliases
 Font_Black="\033[30m"
@@ -142,7 +111,7 @@ function Goodbye() {
     echo ""
     echo -e "${Font_Green}✅ ${Font_Suffix} ${Font_SkyBlue}各国家宽IP\直播专线\支持定制${Font_Suffix}"
     echo -e "${Font_Green}✅ ${Font_Suffix} ${Font_SkyBlue}各国千分满月账户\自然流\万粉号${Font_Suffix}"
-    echo -e "${Font_Green}✅ ${Font_Suffix} ${Font_SkyBlue}各国MCN\小店代入驻\自动化脚本定制${Font_Suffix}"
+    echo -e "${Font_Green}✅ ${Font_Suffix} ${Font_SkyBlue}各国MCN\小店代入驻${Font_Suffix}"
     echo ""
     echo -e "${Font_Yellow}联系咨询: https://t.me/zhuyuheng${Font_Suffix}"
     echo -e "================================================"
@@ -168,17 +137,3 @@ function RunScript() {
 }
 
 RunScript
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About

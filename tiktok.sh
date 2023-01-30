@@ -142,7 +142,7 @@ function Goodbye() {
     echo ""
     echo -e "${Font_Green}✅ ${Font_Suffix} ${Font_SkyBlue}各国家宽IP\直播专线\支持定制${Font_Suffix}"
     echo -e "${Font_Green}✅ ${Font_Suffix} ${Font_SkyBlue}各国千分满月账户\自然流\万粉号${Font_Suffix}"
-    echo -e "${Font_Green}✅ ${Font_Suffix} ${Font_SkyBlue}各国MCN\小店代入驻${Font_Suffix}"
+    echo -e "${Font_Green}✅ ${Font_Suffix} ${Font_SkyBlue}各国MCN\小店代入驻\自动化脚本定制${Font_Suffix}"
     echo ""
     echo -e "${Font_Yellow}联系咨询: https://t.me/zhuyuheng${Font_Suffix}"
     echo -e "================================================"

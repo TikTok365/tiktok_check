@@ -28,8 +28,8 @@ checkOS(){
     ifCentOS=$(cat /etc/os-release | grep CentOS)
     if [ -n "$ifCentOS" ];then
         OS_Version=$(cat /etc/os-release | grep REDHAT_SUPPORT_PRODUCT_VERSION | cut -f2 -d'"')
-        if [[ "$OS_Version" -lt "8" ]];then
-            echo -e "${Font_Red}此脚本不支持CentOS${OS_Version},请升级至CentOS8或更换其他操作系统${Font_Suffix}"
+        if [[ "$OS_Version" -lt "7" ]];then
+            echo -e "${Font_Red}此脚本不支持CentOS${OS_Version},请升级至CentOS7或更换其他操作系统${Font_Suffix}"
             echo -e "${Font_Red}5秒后退出脚本...${Font_Suffix}"
             sleep 5
             exit 1
